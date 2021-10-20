@@ -1,7 +1,27 @@
-.box {
+.boxContainer {
+  position: relative;
   margin: auto;
   margin-top: 200px;
   width: 500px;
   height: 200px;
+}
+
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 500px;
+  height: 200px;
   background-color: pink;
+}
+
+.outerBox {
+  position: absolute;
+  top: 29px;
+  left: 29px;
+  margin: auto;
+  width: 500px;
+  height: 200px;
+  background-color: paleturquoise;
 }
